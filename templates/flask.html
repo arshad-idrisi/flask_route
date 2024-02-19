@@ -1,0 +1,27 @@
+{% extends "BootFile.html" %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Page</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h2 class="text-center cursive">What is Flask...</h2>
+ <p class="text-justify  margin  font-size">Flask is a web framework that provides libraries to build lightweight web applications in python.
+     It is developed by Armin Ronacher who leads an international group of python enthusiasts (POCCO).
+     It is based on WSGI toolkit and jinja2 template engine. Flask is considered as a micro framework</p>
+
+
+    <h2 class="text-center cursive">What is WSGI...</h2>
+    <p class="text-justify  margin  font-size">It is an acronym for web server gateway interface which is a standard for python web application development.
+        It is considered as the specification for the universal interface between the web server and web application.</p>
+
+    <h2 class="text-center cursive">What is Jinja2...</h2>
+    <p class="text-justify margin  font-size">Jinja2 is a web template engine which combines a template with a certain data source to render the dynamic web pages.</p>
+</body>
+</html>
+
+{% endblock %}

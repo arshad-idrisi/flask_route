@@ -1,0 +1,36 @@
+{% extends "BootFile.html" %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="verdana">Registration Form</h2>
+    <form method="post" action="{{ url_for('register')}}">
+      <label for="username" class="verdana">Username:</label>
+      <input type="text" id="username" name="username" placeholder="username" required>
+
+      <label for="password" class="verdana">Password:</label>
+      <input type="password" id="password" name="password" placeholder="password" required>
+
+      <button type="submit" class="verdana">Register</button>
+    </form>
+  </div>
+
+<div class="message">
+    {% if error %}
+    <p>{{error}}</p>
+    {% elif success %}
+    <p>{{success}}</p>
+    {% endif %}
+</div>
+</body>
+</html>
+
+{% endblock %}

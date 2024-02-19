@@ -1,0 +1,126 @@
+bod
+{
+    margin: 0;
+    padding: 0;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer
+{
+    background-color: rgb(1, 2, 2);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+
+.text-justify
+{
+    text-align: justify;
+}
+
+.float-right
+{
+    float:right;
+}
+
+.back
+{
+    background-color:lightgreen;
+    padding: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.float-right
+{
+    float: right;
+}
+
+.margin
+{
+    margin:20px
+}
+
+.cursive
+{
+    font-family: cursive;
+}
+.font-size
+{
+    font-size: 20px;
+}
+.background-color
+{
+    background-color: yellowgreen;
+}
+
+
+
+body
+{
+    background-image: url('/flask_assignment_project/static/images/floral-background.png');
+}
+
+.container {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 8px;
+    }
+
+    input {
+      padding: 8px;
+      margin-bottom: 16px;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: red;
+    }
+
+    .message
+    {
+        text-align: center;
+        background-color: yellowgreen;
+        padding: 5px;
+        margin: 7px;
+        font-family: cursive;
+        font-size: 20;
+        color: red;
+    }
+
+    .vardana
+    {
+        font-family: vardana;
+    }
